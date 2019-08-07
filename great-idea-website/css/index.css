@@ -65,107 +65,115 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.body {
-	margin: 0% 10% 0%;
+.container {
+	/* border: 1px solid red; */
+	width: 900px;
+	margin: auto;
 }
 
-.topLinks a {
-	margin: auto 0;
-	display:inline-block;
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 0 20px;
 	text-decoration: none;
-	font-size: 16px;
-	color:darkgray;
-	margin:45px;
+	color:darkgrey;
 }
 
-#Innovation {
-	position: absolute;
-	margin-top: 120px;
-	margin-left: 170px;
-	margin-right:0px;
-	font-size: 90px;
-	text-align: center;
-
+header .logo {
+	margin-left: 140px;
 }
 
-.logo { 
-	position: absolute;
-	display: inline-block;
-	margin-left: 30px;
-	top: 30px;
-	right: 120px;
-	width:220px;
-	height:45px;
-
-}
-
-
-#roundPic {
-	position: absolute;
-	display: inline-block;
-	margin: 10px;
-	top: 150px;
-	right: 130px;
-	width:450px;
-}
-
-/* h2 p{
-	display: inline-block;
-	margin:25px 0px;
-} */
-#getStarted{
+h1 {
 	display:inline-block;
+	font-size: 52pt;
+	text-align: center;
 	position:relative;
-	top:400px;
-	left: 270px;
-	text-align: center;
-	padding-top:5px;
-	width:160px;
-	height:30px;
+}
+
+.circle {
+
+	position: relative;
+	top: 100px;
+	right: 100px;
+}
+
+.innovation {
+	position: relative;
+	top: -40px;
+	left: 150px;
+}
+
+button {
 	border: 1px solid black;
+	position: relative;
+	padding: 10px 40px;
+	top: 55px;
+	right: 225px;
+	font-size: 12pt;
 }
 
-/* .featuresAbout p h2{
+.features, .about {
+	border-top: 1px solid grey;
 	display: inline-block;
-	width:10%;
-} */
-
-#phone {
-	margin: 25px 25px 25px 0px;
+	width: 45%;
+	padding: 10px;
+	margin-top: 150px;
 }
 
-#copyright {
-	margin: 50px 50px 100px 500px;
-}
-
-/* .features {
-	display:inline-block;
-	width:40%;
-} */
-
-/* .featuresAbout p{
-	display: inline-block;
-	width: 400px;
-} */
-
-h2 {
-	margin-top: 15px;
+.features {
+	margin-left: 50px;
 }
 
 .middle-img {
-	display:none;
-	margin:25px 0px;
+	padding-left: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 852px;
 }
 
-.p1 {
-	width:100%;
-	height:80px;
-	margin:auto;
-}
-
-.p1 p{
-	margin:0px auto;
-	text-align: center;
+.services, .product, .vision {
 	display: inline-block;
-	width:400px;
+	width: 30%;
+	padding: 10px;
+	position: relative;
+	left: 55px;
+	top: -15px;
+}
+
+.phone {
+	display: inline-block;
+	padding: 20px 0px 35px 0px;
+}
+
+.footer {
+	display:inline-block;
+	margin-top:50px;
+	padding-left: 100px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 70px 0px;
+}
+
+footer h2 {
+	width: 300px;
+	margin-left: 62px;
+}
+
+footer p {
+	width: 300px;
+	margin-left: 62px;
+}
+
+.services, .product, .vision {
+	margin-bottom: 50px;
+}
+
+.services, .product, .vision{
+	border-bottom: 1px solid gray;
+	padding-bottom: 60px;
 }
